@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESCustomControls\\IRESCustomControls.csproj",
+      "projectUniqueName": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESCustomControls\\IRESCustomControls.csproj",
       "projectName": "IRESCustomControls",
-      "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESCustomControls\\IRESCustomControls.csproj",
+      "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESCustomControls\\IRESCustomControls.csproj",
       "packagesPath": "C:\\Users\\COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESCustomControls\\obj\\",
+      "outputPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESCustomControls\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

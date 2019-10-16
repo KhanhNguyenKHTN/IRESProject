@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\ViewModels\\ViewModels.csproj",
+      "projectUniqueName": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\ViewModels\\ViewModels.csproj",
       "projectName": "ViewModels",
-      "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\ViewModels\\ViewModels.csproj",
+      "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\ViewModels\\ViewModels.csproj",
       "packagesPath": "C:\\Users\\COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\ViewModels\\obj\\",
+      "outputPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

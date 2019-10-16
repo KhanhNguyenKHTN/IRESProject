@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\Models\\obj\\",
+      "outputPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

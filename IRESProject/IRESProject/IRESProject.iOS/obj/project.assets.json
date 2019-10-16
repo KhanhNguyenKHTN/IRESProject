@@ -1184,11 +1184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject.iOS\\IRESProject.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject.iOS\\IRESProject.iOS.csproj",
       "projectName": "IRESProject.iOS",
-      "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject.iOS\\IRESProject.iOS.csproj",
+      "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject.iOS\\IRESProject.iOS.csproj",
       "packagesPath": "C:\\Users\\COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject.iOS\\obj\\",
+      "outputPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1206,8 +1206,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj": {
-              "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj"
+            "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj": {
+              "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj"
             }
           }
         }

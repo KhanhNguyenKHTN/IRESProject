@@ -1317,11 +1317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject.Android\\IRESProject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject.Android\\IRESProject.Android.csproj",
       "projectName": "IRESProject.Android",
-      "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject.Android\\IRESProject.Android.csproj",
+      "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject.Android\\IRESProject.Android.csproj",
       "packagesPath": "C:\\Users\\COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject.Android\\obj\\",
+      "outputPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1339,8 +1339,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj": {
-              "projectPath": "C:\\Users\\COMPUTER\\Desktop\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj"
+            "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj": {
+              "projectPath": "C:\\Users\\COMPUTER\\Documents\\IRESProject\\IRESProject\\IRESProject\\IRESProject\\IRESProject.csproj"
             }
           }
         }
