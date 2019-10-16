@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IRESProject"
+             BackgroundImageSource="BackgroundLoginImage.png"
+             x:Class="IRESProject.MainPage">
+  
+    <!--<StackLayout>
+        --><!-- Place new controls here --><!--
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>-->
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="EndAndExpand">
+            <Grid HorizontalOptions="Center">
+                <Label Text="IRES" FontSize="70"  TextColor="Blue" FontAttributes="Bold">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android" Value="sans-serif"/>
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+            </Grid>
+        </Grid>
+
+        <Frame Grid.Row="1" Grid.Column="1" CornerRadius="15" VerticalOptions="StartAndExpand">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Entry Grid.Row="2" HorizontalTextAlignment="Center" Placeholder="Username" x:Name="txbUserName" PlaceholderColor="#D8D8D8">
+                </Entry>
+                <Entry Grid.Row="4" HorizontalTextAlignment="Center" Placeholder="Password" x:Name="txbPassword" IsPassword="True" PlaceholderColor="#D8D8D8">
+                </Entry>
+                <Button HorizontalOptions="Center" HeightRequest="45" VerticalOptions="Center" x:Name="btnLogin" CornerRadius="10"
+                    Padding="50,0" BackgroundColor="#0077c2" Grid.Row="6" TextColor="White" Text="Login"></Button>
+
+            </Grid>
+        </Frame>
+        
+    </Grid>
+</ContentPage>
