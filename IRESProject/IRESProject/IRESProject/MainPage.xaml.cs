@@ -16,10 +16,10 @@ namespace IRESProject
         {
             InitializeComponent();
             //MainPage = new NavigationPage(new MainPage());
-            btnLogin.Clicked += (sender, args) =>
-            {
-                ChangePage();
-            };
+            //btnLogin.Clicked += (sender, args) =>
+            //{
+            //    ChangePage();
+            //};
             
         }
         public async void ChangePage()

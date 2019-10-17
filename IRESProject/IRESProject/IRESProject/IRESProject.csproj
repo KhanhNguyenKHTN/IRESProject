@@ -26,6 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Converters\" />
     <Folder Include="CustomControls\" />
+    <Folder Include="Styles\" />
   </ItemGroup>
 </Project>

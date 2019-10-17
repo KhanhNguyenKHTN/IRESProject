@@ -2,15 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:IRESProject"
-             BackgroundImageSource="BackgroundLoginImage.png"
-             x:Class="IRESProject.MainPage">
-  
-    <!--<StackLayout>
-        --><!-- Place new controls here --><!--
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>-->
+             x:Class="IRESProject.MainPage"
+             xmlns:control="clr-namespace:IRESProject.Controls"
+             BackgroundImageSource="BackgroundLoginImage.png">
+    <ContentPage.Resources>
+        <Color x:Key="BorderEntryColor">#ffffff</Color>
+        <Color x:Key="HeaderColor">#0D3583</Color>
+        <Color x:Key="TextEntryColor">#ffffff</Color>
+        <Color x:Key="PlaceHolderColor">#d4e4ff</Color>
+        <Color x:Key="buttonTextColor">#ffffff</Color>
+        <Color x:Key="buttonBackground">#6aa1fc</Color>
+    </ContentPage.Resources>
     <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
@@ -23,38 +25,48 @@
         </Grid.ColumnDefinitions>
         <Grid Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="EndAndExpand">
             <Grid HorizontalOptions="Center">
-                <Label Text="IRES" FontSize="70"  TextColor="Blue" FontAttributes="Bold">
+                <Label Text="IRES" FontSize="70"  TextColor="{StaticResource HeaderColor}" FontAttributes="Bold">
                     <Label.FontFamily>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android" Value="sans-serif"/>
+                            <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium"/>
                         </OnPlatform>
                     </Label.FontFamily>
                 </Label>
             </Grid>
         </Grid>
 
-        <Frame Grid.Row="1" Grid.Column="1" CornerRadius="15" VerticalOptions="StartAndExpand">
-            <Grid >
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto"></RowDefinition>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="5"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="10"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
+        <Grid  Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <control:BorderEntry Grid.Row="2" HorizontalTextAlignment="Center"
+                        x:Name="txbUserName" TextColor="{StaticResource TextEntryColor}"
+                        Placeholder="UserName"
+                                 PlaceholderColor="{StaticResource PlaceHolderColor}"
+                        IsCurvedCornersEnabled="True" 
+                        BorderColor="{StaticResource BorderEntryColor}" 
+                                     CornerRadius="25"
+                                     BorderWidth="2"/>
 
-                <Entry Grid.Row="2" HorizontalTextAlignment="Center" Placeholder="Username" x:Name="txbUserName" PlaceholderColor="#D8D8D8">
-                </Entry>
-                <Entry Grid.Row="4" HorizontalTextAlignment="Center" Placeholder="Password" x:Name="txbPassword" IsPassword="True" PlaceholderColor="#D8D8D8">
-                </Entry>
-                <Button HorizontalOptions="Center" HeightRequest="45" VerticalOptions="Center" x:Name="btnLogin" CornerRadius="10"
-                    Padding="50,0" BackgroundColor="#0077c2" Grid.Row="6" TextColor="White" Text="Login"></Button>
 
-            </Grid>
-        </Frame>
-        
+            <control:BorderEntry Grid.Row="4" Placeholder="Password" PlaceholderColor="{StaticResource PlaceHolderColor}"
+                        IsCurvedCornersEnabled="True"  HorizontalTextAlignment="Center"
+                        BorderColor="{StaticResource BorderEntryColor}"  CornerRadius="25"
+                                     BorderWidth="2"  TextColor="{StaticResource TextEntryColor}"
+                                     IsPassword="True">
+
+            </control:BorderEntry>
+
+            <Button  HeightRequest="45" VerticalOptions="Center" x:Name="btnLogin" CornerRadius="25" TextColor="{StaticResource buttonTextColor}"
+                     BackgroundColor="{StaticResource buttonBackground}" Grid.Row="6" Text="Login"></Button>
+
+        </Grid>
     </Grid>
 </ContentPage>
