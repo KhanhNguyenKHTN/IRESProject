@@ -1,4 +1,5 @@
 ﻿using IRESProject.Views;
+using IRESProject.Views.LoginPages;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,8 +21,15 @@ namespace IRESProject
             //{
             //    ChangePage();
             //};
-            
+
+            btnSignUp.Clicked += BtnSignUp_Clicked;
         }
+
+        private async void BtnSignUp_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new SignUpPage());
+        }
+
         public async void ChangePage()
         {
             try

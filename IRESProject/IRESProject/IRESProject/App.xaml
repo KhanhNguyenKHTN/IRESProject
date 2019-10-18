@@ -3,6 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IRESProject.App">
     <Application.Resources>
+        <!--<ResourceDictionary>
+            <Color x:Key="BorderEntryColorWhite">#ffffff</Color>
+            <Color x:Key="TitleProjectHearder">#1399f2</Color>
+            <Color x:Key="TextLoginEntryColor">#ffffff</Color>
+            <Color x:Key="PlaceHolderColor">LightGray</Color>
+            <Color x:Key="buttonTextColor">#ffffff</Color>
+            <Color x:Key="buttonBackground">#6aa1fc</Color>
+            <Color x:Key="buttonLessBorderTextColor">#1399f2</Color>
 
+            <Style TargetType="Button" x:Key="ButtonLessBorder">
+                <Setter Property="BorderColor" Value="Transparent"></Setter>
+                <Setter Property="BorderWidth" Value="0"></Setter>
+                <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource buttonLessBorderTextColor}"></Setter>
+            </Style>
+
+            <Style TargetType="control:BorderEntry" x:Key="EntryInfor">
+                <Setter Property="IsCurvedCornersEnabled" Value="True"></Setter>
+                <Setter Property="BorderColor" Value="White"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="PlaceholderColor" Value="LightGray"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="25"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+            </Style>
+        </ResourceDictionary>-->
     </Application.Resources>
 </Application>
